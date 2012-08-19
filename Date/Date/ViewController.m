@@ -36,6 +36,10 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    self.fromField=nil;
+    self.toField=nil;
+    self.secondsField=nil;
+    
     // Release any retained subviews of the main view.
 }
 
